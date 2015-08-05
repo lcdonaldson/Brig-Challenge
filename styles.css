@@ -1,0 +1,59 @@
+ html {
+   box-sizing: border-box;
+   color: #444;
+   font: 12pt 'Open Sans';
+   font-weight: 300;
+}
+
+*, *::before, *::after {
+   box-sizing: inherit;
+   color: inherit;
+}
+
+body {
+    background-color: #E5F9F9;
+}
+
+div {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+h5 {
+    color: #BDBBBB;
+}
+
+span {
+    color: blue;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.comment {
+    color: #5C5656;
+    font-weight: bold;
+    font-size: 10pt;
+    margin-left: 5px;
+}
+
+.primary {
+    margin-top: -10px;
+}
+
+.secondary {
+    margin-bottom: 15px;
+}
+
+.tweet {
+    list-style: none;
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+img {  
+    border-radius: 4px; 
+    float: left;
+}

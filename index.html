@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+	<link rel="stylesheet" href="styles.css" class=""></link>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+
+	<script src="index.js"></script>
+</head>
+<body>
+    <ul>
+    </ul>	
+    <script type="text/x-handlebars-template" id="hbs">
+        <li>
+            <h5>{{date}}</h5>
+            <div>
+                <div class='primary'> 
+                    <p>
+                    <span class='name'>{{user}}</span> pushed to 
+                    <span class='branch'>{{branch}}</span> at 
+                    <span class='readme'>{{repo}}</span>
+                    </p>
+                </div>
+                <div class='secondary'>
+                    <img src="{{img}}"> 
+                    <li class="tweet" data-id="{{id}}"> 
+                        <p><span class="comment">{{comment}}<span></p>
+                    </li>
+                </div>    
+            </div>
+        </li>
+    </sript>
+</body>
+</html>
